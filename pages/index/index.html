@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport">
+    <title>游戏大厅</title>
+    <link rel="stylesheet" href="http://res.wx.qq.com/open/js/jweixin-1.2.0.js">
+    <link rel="stylesheet" href="../../common/common.css">
+    <link rel="stylesheet" href="index.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="titlebar">
+            <div class="left"> <img src="../../image/eg_avatar.png" alt=""> <span>mumu</span> </div>
+            <div class="right"> <img src="../../image/house_card.png" alt=""> <span>4</span> </div>
+        </div>
+        <div class="list clear">
+            <div class="group" data-type="1"> <img src="../../image/type_1.png" alt=""> <img src="../../image/create_btn.png" class="btn" alt=""> </div>
+            <div class="group" data-type="2"> <img src="../../image/type_2.png" alt=""> <img src="../../image/create_btn.png" class="btn" alt=""> </div>
+            <div class="group" data-type="3"> <img src="../../image/type_3.png" alt=""> <img src="../../image/create_btn.png" class="btn" alt=""> </div>
+            <div class="group" data-type="4"> <img src="../../image/type_4.png" alt=""> <img src="../../image/create_btn.png" class="btn" alt=""> </div>
+        </div>
+    </div>
+    <div id="fix" class="hidden">
+        <div class="fix-box"> <img src="../../image/close.png" alt="" id="close">
+            <div id="chooseMode" class="clear"> <span class="active">固定抢庄</span> <span data-type="2">自由抢庄</span> </div>
+            <div class="select">
+                <div class="option clear">
+                    <label>房型：</label>
+                    <div class="fl">
+                        <div class="choose"> <span class="yes"></span> <span>4人房</span> </div>
+                        <div class="choose"> <span class="yes"></span> <span>8人房</span> </div>
+                    </div>
+                </div>
+                <div class="option clear">
+                    <label>底分：</label>
+                    <div class="fl">
+                        <div class="choose"> <span class="yes"></span> <span>20-400分</span> </div>
+                        <div class="choose"> <span class="yes"></span> <span>40-800分</span> </div>
+                        <div class="choose"> <span class="yes"></span> <span>60-1200分</span> </div>
+                        <div class="choose"> <span class="yes"></span> <span>80-1600分</span> </div>
+                    </div>
+                </div>
+                <div class="option clear">
+                    <label>局数：</label>
+                    <div class="fl">
+                        <div class="choose"> <span class="yes"></span> <span>8局</span> </div>
+                        <div class="choose"> <span class="yes"></span> <span>12局</span> </div>
+                    </div>
+                </div>
+                <div class="option clear">
+                    <label>上庄：</label>
+                    <div class="fl">
+                        <div class="choose"> <span class="yes"></span> <span>无</span> </div>
+                    </div>
+                </div>
+            </div>
+            <div id="success"> <img src="../../image/btn-1.png" alt=""> </div>
+        </div>
+    </div>
+    <script src="../../common/jquery-1.8.3.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

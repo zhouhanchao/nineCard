@@ -1,0 +1,208 @@
+.container {
+    height: 100%;
+    background: url(../../image/index_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.titlebar {
+    width: 100%;
+    height: 10vh;
+    background: url(../../image/index_title_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titlebar .left {
+    display: inline-block;
+    width: 70%;
+    height: inherit;
+    overflow: hidden;
+}
+
+.titlebar .left img {
+    float: left;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #fff;
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+
+.titlebar .right {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+}
+
+.titlebar .right img {
+    float: left;
+    width: 9vw;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.titlebar span {
+    display: inline-block;
+    max-width: 40vw;
+    overflow: hidden;
+    height: 4vh;
+    line-height: 4vh;
+    color: #fff;
+    margin: 3vh 0;
+    padding: 0 5vw 0 3vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.list {
+    width: 90%;
+    padding: 10vh 0;
+    margin: 0 auto;
+}
+
+.list .group {
+    float: left;
+    width: 50%;
+    height: 35vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.list .group img:not(.btn) {
+    width: 100%;
+    height: 95%;
+}
+
+.list .group img.btn {
+    width: 80%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#fix {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#fix .fix-box {
+    position: absolute;
+    width: 76%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    *margin-top: -50%;
+    *margin-left: -38%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: url(../../image/create_house2.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#fix .fix-box #close {
+    position: absolute;
+    top: -4vw;
+    right: -4vw;
+    width: 8vw;
+}
+
+#fix .fix-box #chooseMode {
+    position: absolute;
+    top: 5vh;
+    left: 5%;
+    width: 90%;
+}
+
+#fix .fix-box #chooseMode span {
+    color: #fff;
+    font-size: 5vw;
+    line-height: 1.8;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#fix .fix-box #chooseMode span.active {
+    color: #fee104;
+}
+
+#fix .fix-box .select .option span,
+#fix .fix-box .select .option label {
+    color: #fff;
+    font-size: 4vw;
+}
+
+#fix .fix-box .select .option label {
+    float: left;
+    display: inline-block;
+    width: 18%;
+    padding-left: 2%;
+    overflow: hidden;
+}
+
+#fix .fix-box .select {
+    position: absolute;
+    top: 10vh;
+    left: 5%;
+    width: 90%;
+}
+
+#fix .fix-box .select .option {
+    width: 100%;
+    padding-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: rgba(141, 115, 203, 0.8);
+}
+
+#fix .fix-box .select .option>div.fl {
+    width: 80%;
+}
+
+#fix .fix-box .select .option .choose {
+    float: left;
+    width: 50%;
+    padding-bottom: 1vh;
+}
+
+#fix .fix-box .select .option .choose .yes {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2e213f;
+    border-radius: 5px;
+    background-color: #7456b9;
+    position: relative;
+    vertical-align: bottom;
+}
+
+#fix .fix-box .select .option .choose .yes img {
+    width: 25px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+#fix .fix-box #success {
+    width: 90%;
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    text-align: center;
+}
+
+#fix .fix-box #success img {
+    width: 40%;
+}

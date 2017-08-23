@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: left;
+    font-family: Arial, Microsoft Yahei, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #000000;
+    height: 100%;
+}
+
+input,
+select {
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+div,
+form,
+img,
+button,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+button:enabled:active {
+    background-color: transparent;
+}
+
+table,
+tr,
+td {
+    font-size: 12px;
+}
+
+ul {
+    height: auto;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.ovhidden {
+    overflow: hidden;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+.clear:after {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: "";
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.vw-1 {
+    font-size: 1vw;
+}
+
+.vw-2 {
+    font-size: 2vw;
+}
+
+.vw-3 {
+    font-size: 3vw;
+}
+
+.vw-4 {
+    font-size: 4vw;
+}
+
+.vw-5 {
+    font-size: 5vw;
+}
+
+.vw-6 {
+    font-size: 6vw;
+}
+
+.vw-7 {
+    font-size: 7vw;
+}
+
+.vw-8 {
+    font-size: 8vw;
+}
+
+.vw-9 {
+    font-size: 9vw;
+}
+
+.vw-10 {
+    font-size: 10vw;
+}
+
+
+.rotateY {
+    animation: keyframe1 0.5s linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes keyframe1 {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+
+
+/* 页面容器 */
+
+.container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.public {
+    padding: 0px;
+    background-color: #fff;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/*form*/
+
+.form {
+    height: auto;
+    overflow: hidden;
+    min-height: 500px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form ul {
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.form ul li {
+    text-align: center;
+    text-align: left;
+}
+
+
+

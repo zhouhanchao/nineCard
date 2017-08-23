@@ -1,0 +1,244 @@
+.container {
+    height: 100%;
+    background: url(../../image/game_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.chat {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.chat img {
+    width: 10vw;
+}
+.titlebar {
+    width: 100%;
+    height: 7vh;
+    background: url(../../image/game_title_bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.titlebar .left {
+    display: inline-block;
+    height: inherit;
+    overflow: hidden;
+}
+.titlebar .left img {
+    float: left;
+    width: 8vw;
+    border-radius: 5px;
+    margin-top: 0.7vh;
+    margin-left: 2vw;
+}
+.titlebar .right {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+}
+.titlebar .right img {
+    width: 9vw;
+    margin-top: 1vh;
+}
+.titlebar>p {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    *margin-left: -12px;
+    transform: translateX(-50%);
+    -weblit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+#table {
+    width: 90%;
+    height: 75vh;
+    margin: 5vh auto;
+    background: url(../../image/table.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#table .person {
+    position: absolute;
+    width: 60px;
+    height: 90px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+}
+#table .person.person1 {
+    bottom: -50px;
+    left: 50%;
+    margin-left: -30px;
+}
+#table .person.person2 {
+    top: 75%;
+    right: -10px;
+    margin-top: -40px;
+}
+#table .person.person3 {
+    top: 50%;
+    right: -10px;
+    margin-top: -40px;
+}
+#table .person.person4 {
+    top: 25%;
+    right: -10px;
+    margin-top: -40px;
+}
+#table .person.person5 {
+    top: -50px;
+    left: 50%;
+    margin-left: -30px;
+}
+#table .person.person6 {
+    top: 25%;
+    left: -10px;
+    margin-top: -40px;
+}
+#table .person.person7 {
+    top: 50%;
+    left: -10px;
+    margin-top: -40px;
+}
+#table .person.person8 {
+    top: 75%;
+    left: -10px;
+    margin-top: -40px;
+}
+#table #scoreNum>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 24px;
+    z-index: 99;
+    margin-top: 30px;
+    text-shadow: 0px 0px 5px greenyellow;
+}
+#table .readyBtn {
+    position: absolute;
+    width: 36px;
+}
+#table .readyBtn.r1 {
+    bottom: 12%;
+    left: 50%;
+    margin-left: -18px;
+}
+#table .readyBtn.r2 {
+    top: 75%;
+    right: 20%;
+}
+#table .readyBtn.r3 {
+    top: 50%;
+    right: 20%;
+}
+#table .readyBtn.r4 {
+    top: 25%;
+    right: 20%;
+}
+#table .readyBtn.r5 {
+    top: 10%;
+    left: 50%;
+    margin-left: -18px;
+}
+#table .readyBtn.r6 {
+    top: 25%;
+    left: 20%;
+}
+#table .readyBtn.r7 {
+    top: 50%;
+    left: 20%;
+}
+#table .readyBtn.r8 {
+    top: 75%;
+    left: 20%;
+}
+#table .person>p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#table .person>p.name , #table .person>p.gold {
+    width: 100%;
+}
+#table .person>p.avatar img {
+    width: 100%;
+    margin-top: 5px;
+}
+#table .person>p.gold img {
+    width: 10px;
+    margin: 0;
+}
+#table .person>p.gold span {
+    color: gold;
+    vertical-align: top;
+    margin-left: 3px;
+}
+#table .person>span.banker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 18px;
+    background: gold;
+    overflow: hidden;
+    font-size: 12px;
+    border-bottom-right-radius: 50%;
+    color: #333;
+    text-align: center;
+    line-height: 18px;
+}
+#table .btns {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 30%;
+    z-index: 999;
+}
+#table .btns button {
+    width: 18vw;
+    height: 8vw;
+    background: url(../../image/btn-blue.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    margin: 0 0.5vw;
+}
+#table .btns button.ready {
+    background: url(../../image/btn-red.png) no-repeat;
+    background-size: 100% 100%;
+}
+#table #cardBehind .group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#table #cardBehind .group img {
+    width: 5vw;
+}
+#table #timing {
+    font-size: 26px;
+    text-align: center;
+    line-height: 2.5;
+    color: #f8c54f;
+    text-shadow: 0 0 1px #703c04;
+    width: 50px;
+    height: 55px;
+    background: url(../../image/clock.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
