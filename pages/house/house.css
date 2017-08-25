@@ -64,7 +64,6 @@
     position: absolute;
     width: 60px;
     height: 90px;
-    overflow: hidden;
     background-color: rgba(255,255,255,0.3);
     border-radius: 10px;
 }
@@ -124,39 +123,43 @@
     width: 36px;
 }
 #table .readyBtn.r1 {
-    bottom: 12%;
+    top: -40%;
     left: 50%;
     margin-left: -18px;
 }
-#table .readyBtn.r2 {
-    top: 75%;
-    right: 20%;
+#table .readyBtn.r2 , #table .readyBtn.r3 ,#table .readyBtn.r4 {
+    top: 45%;
+    left: -80%;
 }
+/*
 #table .readyBtn.r3 {
-    top: 50%;
+    top: 45%;
     right: 20%;
 }
 #table .readyBtn.r4 {
-    top: 25%;
+    top: 45%;
     right: 20%;
 }
+*/
 #table .readyBtn.r5 {
-    top: 10%;
+    bottom: -40%;
     left: 50%;
     margin-left: -18px;
 }
-#table .readyBtn.r6 {
-    top: 25%;
-    left: 20%;
+#table .readyBtn.r6 , #table .readyBtn.r7 , #table .readyBtn.r8 {
+    top: 45%;
+    right: -80%;
 }
+/*
 #table .readyBtn.r7 {
-    top: 50%;
+    top: 45%;
     left: 20%;
 }
 #table .readyBtn.r8 {
-    top: 75%;
+    top: 45%;
     left: 20%;
 }
+*/
 #table .person>p {
     width: 80%;
     margin: 0 auto;
@@ -192,6 +195,7 @@
     overflow: hidden;
     font-size: 12px;
     border-bottom-right-radius: 50%;
+    border-top-left-radius: 10px;
     color: #333;
     text-align: center;
     line-height: 18px;
