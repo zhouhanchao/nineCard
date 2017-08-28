@@ -3,14 +3,6 @@
     background: url(../../image/game_bg.jpg) no-repeat;
     background-size: cover;
 }
-.chat {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-}
-.chat img {
-    width: 10vw;
-}
 .titlebar {
     width: 100%;
     height: 7vh;
